@@ -1,0 +1,17 @@
+{
+  "name": "canyon-factory-outlet",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "get-stdin": "^6.0.0",
+    "ramda-cli": "^3.1.0"
+  }
+}

@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+curl -s 'https://www.canyon.com/en-fi/factory-outlet/ajax/articles.html?category=road&type=html'

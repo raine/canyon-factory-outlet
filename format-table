@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+./node_modules/.bin/ramda 'map evolve wmn: ((x) -> if x then "WMN" else "")' 'sort-by (.date)' -o table --compact
