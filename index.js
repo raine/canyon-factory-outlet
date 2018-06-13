@@ -15,6 +15,9 @@ const getDiscount = (article) =>
       parseInt(article.product.price) +
       '.00')
 
+const getWmn = (article) =>
+  article.product.name.includes('WMN') || Boolean(article.wmn)
+
 const processArticleDate = (article) => ({
   name: article.product.name,
   date: article.date,
@@ -22,7 +25,7 @@ const processArticleDate = (article) => ({
   discount: getDiscount(article),
   year: article.year,
   size: article.size.replace(/\|/g,''),
-  wmn: !!article.wmn
+  wmn: getWmn(article)
 })
 
 getStdin()
